@@ -114,3 +114,7 @@ history = model.fit(
 y_pred = model.predict(X_test)
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 print(f"LSTM 모델 RMSE(파생변수 포함): {rmse:.4f}")
+
+
+# ---------출력 결과---------
+# LSTM 모델 RMSE(파생변수 포함): 13.0315
