@@ -289,40 +289,42 @@ model.fit(X_train, y_train)
 파생변수 추가하거나 수정할 내용이 있다면 아래에 작성해주세요.
 
 
-## 0605 모델 별 변수 중요도(큰순)
+| LSTM 변수                     | 중요도 |
+| ----------------------------- | ------: |
+| `train_heat.heat_demand_ma24` | 39.4827 |
+| `hour`                        |  5.7657 |
+| `train_heat.ta_chi`           |  2.4199 |
+| `train_heat.heat_demand_diff` |  0.9041 |
+| `train_heat.si`               |  0.8527 |
+| `train_heat.ta`               |  0.8218 |
+| `Unnamed: 0`                  |  0.2417 |
+| `is_weekend`                  |  0.2073 |
+| `month`                       |  0.1875 |
+| `train_heat.ws`               |  0.1611 |
+| `train_heat.wd`               |  0.0788 |
+| `train_heat.rn_day`           |  0.0491 |
+| `train_heat.rn_hr1`           |  0.0276 |
+| `train_heat.hm`               | –0.2820 |
 
-**LSTM_4**
-train_heat.heat_demand_ma24: 39.4827
-hour: 5.7657
-train_heat.ta_chi: 2.4199
-train_heat.heat_demand_diff: 0.9041
-train_heat.si: 0.8527
-train_heat.ta: 0.8218
-Unnamed: 0: 0.2417
-is_weekend: 0.2073
-month: 0.1875
-train_heat.ws: 0.1611
-train_heat.wd: 0.0788
-train_heat.rn_day: 0.0491
-train_heat.rn_hr1: 0.0276
-train_heat.hm: -0.2820
 
 
-**GRU_2**
-train_heat.heat_demand_ma24: 43.3630
-hour: 3.6996
-train_heat.heat_demand_diff: 2.5452
-train_heat.ta_chi: 2.2803
-train_heat.si: 1.6223
-train_heat.ta: 0.9232
-train_heat.hm: 0.3408
-is_weekend: 0.2602
-train_heat.ws: 0.2105
-Unnamed: 0: 0.2031
-month: 0.0820
-train_heat.wd: 0.0426
-train_heat.rn_hr1: 0.0173
-train_heat.rn_day: -0.0022
+| GRU 변수                      | 중요도 |
+| ----------------------------- | ------: |
+| `train_heat.heat_demand_ma24` | 43.3630 |
+| `hour`                        |  3.6996 |
+| `train_heat.heat_demand_diff` |  2.5452 |
+| `train_heat.ta_chi`           |  2.2803 |
+| `train_heat.si`               |  1.6223 |
+| `train_heat.ta`               |  0.9232 |
+| `train_heat.hm`               |  0.3408 |
+| `is_weekend`                  |  0.2602 |
+| `train_heat.ws`               |  0.2105 |
+| `Unnamed: 0`                  |  0.2031 |
+| `month`                       |  0.0820 |
+| `train_heat.wd`               |  0.0426 |
+| `train_heat.rn_hr1`           |  0.0173 |
+| `train_heat.rn_day`           | –0.0022 |
+
 
 
 ---
