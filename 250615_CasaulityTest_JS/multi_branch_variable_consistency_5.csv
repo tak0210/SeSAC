@@ -1,0 +1,119 @@
+variable,branch_count,p_mean,p_std,p_min,f_mean,optimal_lag,consistency_rate,var_type
+DCI,5,0.0,0.0,0.0,253.9921,2,1.0,Others
+HDD_18,5,0.0,0.0001,0.0,307.6205,2,1.0,Temperature Related
+HDD_20,5,0.0,0.0001,0.0,284.2744,2,1.0,Temperature Related
+day_of_year_sin,5,0.0,0.0,0.0,21.1506,4,1.0,Cyclical Encoding
+hm_lag_12h_mean,5,0.0,0.0,0.0,39.6436,2,1.0,Lag Variables
+hm_lag_15h_mean,5,0.0,0.0,0.0,30.8039,3,1.0,Lag Variables
+hm_lag_9h_mean,5,0.0,0.0,0.0,47.5727,3,1.0,Lag Variables
+hm_ta_interaction,5,0.0,0.0,0.0,54.9585,2,1.0,Temperature Related
+hour,5,0.0,0.0,0.0,151.762,2,1.0,Others
+hour_cos,5,0.0,0.0,0.0,85.3397,2,1.0,Cyclical Encoding
+hour_sin,5,0.0,0.0,0.0,162.91,2,1.0,Cyclical Encoding
+is_night,5,0.0,0.0,0.0,319.282,2,1.0,Others
+is_peak_evening,5,0.0,0.0,0.0,246.6622,1,1.0,Time/Season
+is_peak_morning,5,0.0,0.0,0.0,335.4194,2,1.0,Time/Season
+is_peak_morning_27,5,0.0,0.0,0.0,334.7492,1,1.0,Time/Season
+is_peak_morning_710,5,0.0,0.0,0.0,279.4253,1,1.0,Time/Season
+si,5,0.0,0.0,0.0,197.8084,1,1.0,Solar Radiation
+si_lag_15h_mean,5,0.0,0.0,0.0,200.9186,1,1.0,Lag Variables
+si_lag_21h_mean,5,0.0,0.0,0.0,206.9877,1,1.0,Lag Variables
+si_lag_24h_mean,5,0.0,0.0,0.0,205.5215,1,1.0,Lag Variables
+si_lag_3h_mean,5,0.0,0.0,0.0,276.2879,1,1.0,Lag Variables
+si_lag_9h_mean,5,0.0,0.0,0.0,238.42,1,1.0,Lag Variables
+ta_chi_lag_18h_mean,5,0.0,0.0,0.0,106.4427,2,1.0,Lag Variables
+ta_chi_lag_21h_mean,5,0.0,0.0002,0.0,167.6363,2,1.0,Lag Variables
+ta_chi_lag_24h_mean,5,0.0,0.0001,0.0,155.6711,2,1.0,Lag Variables
+ta_chi_lag_6h_mean,5,0.0,0.0,0.0,192.9174,2,1.0,Lag Variables
+ta_diff_12h,5,0.0,0.0,0.0,68.0794,1,1.0,Temperature Related
+ta_humidity_interaction,5,0.0,0.0,0.0,54.9585,2,1.0,Temperature Related
+ta_lag_24h_mean,5,0.0,0.0001,0.0,123.4768,2,1.0,Lag Variables
+ta_lag_6h_mean,5,0.0,0.0,0.0,178.1461,2,1.0,Lag Variables
+wind_chill,5,0.0,0.0,0.0,158.7794,2,1.0,Others
+wind_chill_lag_18h_mean,5,0.0,0.0001,0.0,76.5168,2,1.0,Lag Variables
+wind_chill_lag_6h_mean,5,0.0,0.0,0.0,158.6729,2,1.0,Lag Variables
+ws_lag_21h_mean,5,0.0,0.0001,0.0,50.5697,2,1.0,Lag Variables
+ws_lag_9h_mean,5,0.0,0.0001,0.0,37.421,3,1.0,Lag Variables
+hm_lag_3h_mean,5,0.0001,0.0002,0.0,60.8871,1,1.0,Lag Variables
+hm_lag_6h_mean,5,0.0001,0.0005,0.0,81.1199,2,1.0,Lag Variables
+ta_chi_lag_3h_mean,5,0.0001,0.0003,0.0,125.7512,1,1.0,Lag Variables
+ta_lag_12h_mean,5,0.0001,0.0006,0.0,79.2616,2,1.0,Lag Variables
+ta_lag_18h_mean,5,0.0001,0.0003,0.0,91.0157,2,1.0,Lag Variables
+ta_lag_1h,5,0.0001,0.0003,0.0,106.8162,2,1.0,Temperature Related
+ws_lag_12h_mean,5,0.0001,0.0003,0.0,24.6912,5,1.0,Lag Variables
+si_lag_18h_mean,5,0.0002,0.0009,0.0,249.8958,2,1.0,Lag Variables
+ta_lag_3h,5,0.0002,0.0006,0.0,65.2591,1,1.0,Temperature Related
+ta_lag_3h_mean,5,0.0002,0.001,0.0,118.0757,1,1.0,Lag Variables
+ta_lag_9h_mean,5,0.0002,0.0006,0.0,90.3533,2,1.0,Lag Variables
+wd_lag_3h_mean,5,0.0002,0.0007,0.0,25.702,2,1.0,Lag Variables
+wind_chill_lag_24h_mean,5,0.0002,0.0006,0.0,104.7647,2,1.0,Lag Variables
+ta_chi_lag_12h_mean,5,0.0003,0.0016,0.0,80.384,2,1.0,Lag Variables
+ta_lag_21h_mean,5,0.0003,0.0015,0.0,150.3465,2,1.0,Lag Variables
+si_lag_6h_mean,5,0.0004,0.0017,0.0,272.1118,1,1.0,Lag Variables
+ta_lag_15h_mean,5,0.0004,0.0014,0.0,50.113,2,1.0,Lag Variables
+ta_squared,5,0.0004,0.0019,0.0,31.6815,2,1.0,Temperature Related
+ta_chi_lag_9h_mean,5,0.0005,0.0023,0.0,94.4287,2,1.0,Lag Variables
+temp_category,5,0.0005,0.0025,0.0,52.9979,2,1.0,Temperature Related
+ws_lag_3h_mean,5,0.0005,0.0018,0.0,63.7765,1,1.0,Lag Variables
+wind_chill_lag_15h_mean,5,0.0006,0.0024,0.0,41.4634,3,1.0,Lag Variables
+wind_chill_lag_3h_mean,5,0.0006,0.0027,0.0,91.7881,1,1.0,Lag Variables
+wind_temp_interaction,5,0.0007,0.0024,0.0,31.8294,2,1.0,Temperature Related
+wind_chill_lag_12h_mean,5,0.0008,0.0039,0.0,69.0582,2,1.0,Lag Variables
+wind_chill_lag_9h_mean,5,0.001,0.0036,0.0,72.5599,3,1.0,Lag Variables
+ws_lag_24h_mean,5,0.0011,0.0046,0.0,47.8353,2,1.0,Lag Variables
+ws_lag_15h_mean,5,0.0012,0.005,0.0,32.9828,2,1.0,Lag Variables
+hm_lag_18h_mean,5,0.0013,0.0064,0.0,43.2977,2,1.0,Lag Variables
+hm_lag_21h_mean,5,0.0013,0.0061,0.0,63.5346,2,1.0,Lag Variables
+ta_lag_2h,5,0.0013,0.0066,0.0,64.0087,1,1.0,Temperature Related
+hm_lag_24h_mean,5,0.0015,0.006,0.0,56.6648,3,1.0,Lag Variables
+si_lag_12h_mean,5,0.0016,0.0081,0.0,204.3904,2,1.0,Lag Variables
+ws_lag_18h_mean,5,0.0016,0.0078,0.0,30.9452,1,1.0,Lag Variables
+hour_squared,5,0.0017,0.0083,0.0,159.3004,2,1.0,Others
+peak_time_category,5,0.0017,0.008,0.0,126.1927,2,1.0,Time/Season
+wd_lag_9h_mean,5,0.0017,0.0036,0.0,15.2419,2,1.0,Lag Variables
+wind_chill_lag_21h_mean,5,0.0018,0.0084,0.0,121.1428,2,1.0,Lag Variables
+hm,5,0.0019,0.0084,0.0,70.6737,1,1.0,Others
+ta,5,0.0019,0.0082,0.0,172.4069,2,1.0,Temperature Related
+ta_cubed,5,0.0019,0.0046,0.0,32.122,2,1.0,Temperature Related
+day_of_year_cos,5,0.002,0.0051,0.0,22.4797,3,1.0,Cyclical Encoding
+ta_chi,5,0.003,0.0088,0.0,185.2567,2,1.0,Temperature Related
+ta_chi_lag_15h_mean,5,0.0031,0.0091,0.0,47.256,2,1.0,Lag Variables
+wd_lag_6h_mean,5,0.0031,0.0071,0.0,18.7769,2,1.0,Lag Variables
+ws_lag_6h_mean,5,0.0031,0.0101,0.0,45.3177,2,1.0,Lag Variables
+wd_lag_12h_mean,5,0.0033,0.01,0.0,10.9042,2,1.0,Lag Variables
+wd_lag_18h_mean,5,0.0033,0.0081,0.0,17.5111,2,1.0,Lag Variables
+ws,5,0.0033,0.0094,0.0,39.7977,1,1.0,Others
+ta_diff_6h,5,0.0035,0.0104,0.0,229.9375,3,1.0,Temperature Related
+wd,5,0.0087,0.0165,0.0,22.6716,1,1.0,Others
+wd_lag_21h_mean,4,0.0004,0.0016,0.0,27.7253,2,0.8,Lag Variables
+wd_lag_24h_mean,4,0.0026,0.0073,0.0,27.163,2,0.8,Lag Variables
+wd_lag_15h_mean,4,0.0034,0.0128,0.0,10.5615,4,0.8,Lag Variables
+ta_diff_24h,4,0.0052,0.0124,0.0,9.0783,4,0.8,Temperature Related
+rain_intensity,4,0.0074,0.0096,0.0,6.457,4,0.8,Solar Radiation
+month_sin,4,0.0087,0.0116,0.0003,5.7175,1,0.8,Cyclical Encoding
+month,4,0.0109,0.0144,0.0,10.1907,1,0.8,Others
+heating_season,4,0.0191,0.0139,0.0034,4.5245,1,0.8,Time/Season
+is_weekend,3,0.0036,0.0053,0.0,8.9191,2,0.6,Time/Season
+daily_temp_range,3,0.0103,0.0105,0.0011,3.9248,3,0.6,Temperature Related
+is_holiday,2,0.0007,0.001,0.0,6.8761,2,0.4,Time/Season
+dayofweek,2,0.0008,0.0017,0.0,8.5311,2,0.4,Others
+daily_temp_range_diff,2,0.0071,0.016,0.0,7.8087,2,0.4,Temperature Related
+rn_day,2,0.009,0.0124,0.0,7.389,1,0.4,Others
+rain_season_interaction,2,0.0118,0.0128,0.0,6.4171,1,0.4,Interaction
+dayofweek_sin,2,0.0127,0.0174,0.0,7.4612,2,0.4,Cyclical Encoding
+hm_fourier_cos_2,1,0.0,0.0,0.0,65.2986,1,0.2,Fourier Transform
+hm_fourier_sin_2,1,0.0,0.0,0.0,65.5816,2,0.2,Fourier Transform
+ta_fourier_cos_2,1,0.0,0.0,0.0,65.2986,1,0.2,Fourier Transform
+ta_fourier_sin_2,1,0.0,0.0,0.0,65.5816,2,0.2,Fourier Transform
+temp_category20,1,0.0,0.0,0.0,29.4596,1,0.2,Temperature Related
+wind_chill_fourier_cos_2,1,0.0,0.0,0.0,65.2986,1,0.2,Fourier Transform
+wind_chill_fourier_sin_2,1,0.0,0.0,0.0,65.5816,2,0.2,Fourier Transform
+ws_fourier_cos_2,1,0.0,0.0,0.0,65.2986,1,0.2,Fourier Transform
+ws_fourier_sin_2,1,0.0,0.0,0.0,65.5816,2,0.2,Fourier Transform
+rn_hr1_lag_6h_mean,1,0.0004,,0.0004,12.7644,1,0.2,Lag Variables
+month_day_interaction,1,0.0012,0.0013,0.0001,5.4585,2,0.2,Interaction
+rn_hr1_lag_18h_mean,1,0.0051,0.0039,0.0019,5.2481,1,0.2,Lag Variables
+rn_hr1_lag_21h_mean,1,0.0105,0.0101,0.0001,5.9918,1,0.2,Lag Variables
+rn_hr1_lag_12h_mean,1,0.0125,0.0069,0.0076,4.4044,1,0.2,Lag Variables
+rn_hr1_lag_9h_mean,1,0.0306,0.015,0.02,3.95,1,0.2,Lag Variables
+rn_hr1,1,0.0313,,0.0313,4.6385,1,0.2,Others
